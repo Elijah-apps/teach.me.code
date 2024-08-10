@@ -3,13 +3,17 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Mensah - Teach Me Code</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="coding, programming, online classes, learn to code">
-  <meta name="description" content="Teach Me Code offers live online coding classes to help you master programming from the comfort of your home.">
+  <title>Teach Me Code</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,292 +27,228 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+
+  <!-- Wow.js for animations -->
+  <link rel="stylesheet" href="lib/wow/wow.min.css">
+
+  <!-- GSAP and Anime.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
 </head>
 
 <body>
 
   <!--==========================
-  Header
-  ============================-->
-  <header id="header" class="fixed-top">
-    <div class="container">
-
-      <div class="logo float-left">
-        <h1 class="text-light"><a href="#header"><span>teach.me.code</span></a></h1>
-      </div>
-
-      <nav class="main-nav float-right d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#courses">Courses</a></li>
-          <li><a href="#schedule">Class Schedule</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header><!-- #header -->
-
-  <!--==========================
     Intro Section
   ============================-->
-  <section id="intro" class="clearfix">
-    <div class="container">
-
-      <div class="intro-img">
-        <img src="img/intro-img.svg" alt="Intro Image" class="img-fluid">
-      </div>
-
-      <div class="intro-info">
-        <h2>Learn to code<br>with live online classes<br>on Google Meet</h2>
-        <div>
-          <a href="#courses" class="btn-get-started scrollto">View Courses</a>
-          <a href="#schedule" class="btn-services scrollto">Class Schedule</a>
-        </div>
-      </div>
+  <section id="intro">
+    <div class="intro-container wow fadeIn">
+      <h1>Welcome to Teach Me Code</h1>
+      <p>Your Journey to Becoming a Developer Begins Here</p>
+      <a href="#about" class="btn-get-started">Get Started</a>
     </div>
-  </section><!-- #intro -->
-
-  <main id="main">
-
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>About Us</h3>
-          <p>At Teach Me Code, we are dedicated to providing accessible and high-quality coding education. Our live online classes are designed to cater to beginners and seasoned programmers alike, offering interactive and hands-on learning experiences.</p>
-        </header>
-
-        <div class="row about-container">
-
-          <div class="col-lg-6 content order-lg-1 order-2">
-            <p>
-              Our mission is to empower individuals with the skills needed to thrive in the digital age. Whether you're looking to start a new career, enhance your current skills, or explore coding as a hobby, we have the resources and expertise to help you succeed.
-            </p>
-
-            <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-code"></i></div>
-              <h4 class="title"><a href="#courses">Comprehensive Curriculum</a></h4>
-              <p class="description">We cover a wide range of programming languages and frameworks, ensuring you get a well-rounded education.</p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-graduation-cap"></i></div>
-              <h4 class="title"><a href="#courses">Expert Instructors</a></h4>
-              <p class="description">Our classes are taught by industry professionals with years of experience in software development.</p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><i class="fa fa-users"></i></div>
-              <h4 class="title"><a href="#courses">Interactive Learning</a></h4>
-              <p class="description">Engage with instructors and peers in real-time, ensuring a dynamic and supportive learning environment.</p>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-            <img src="img/about-img.svg" class="img-fluid" alt="About Us Image">
-          </div>
-        </div>
-
-        <div class="row about-extra">
-          <div class="col-lg-6 wow fadeInUp">
-            <img src="img/about-extra-1.svg" class="img-fluid" alt="Additional Info Image">
-          </div>
-          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-            <h4>Why Choose Us?</h4>
-            <p>
-              Our unique approach to coding education combines theoretical knowledge with practical application, ensuring you not only understand the concepts but also know how to use them in real-world scenarios.
-            </p>
-            <p>
-              Join our community of learners and take the first step towards a rewarding and lucrative career in technology.
-            </p>
-          </div>
-        </div>
-
-        <div class="row about-extra">
-          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
-            <img src="img/about-extra-2.svg" class="img-fluid" alt="Additional Info Image 2">
-          </div>
-
-          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-            <h4>Our Commitment to You</h4>
-            <p>
-              We are committed to your success. Our support doesn't end with the class – we offer resources, mentorship, and community support to help you achieve your goals.
-            </p>
-            <p>
-              Stay ahead in the ever-evolving tech industry by continuously learning and growing with us.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--==========================
-      Courses Section
-    ============================-->
-    <section id="courses" class="section-bg">
-      <div class="container">
-        <header class="section-header">
-          <h3>Our Courses</h3>
-          <p>Join our live coding classes and learn from anywhere</p>
-        </header>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="ion-code-working" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="#courses">Web Development Fundamentals</a></h4>
-              <p class="description">Learn HTML, CSS, and JavaScript basics in our interactive live classes.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="ion-android-phone-portrait" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><a href="#courses">Mobile App Development</a></h4>
-              <p class="description">Build iOS and Android apps using React Native with real-time instructor guidance.</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon"><i class="ion-stats-bars" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="#courses">Data Science Essentials</a></h4>
-              <p class="description">Explore data analysis and machine learning concepts in our live online sessions.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--==========================
-      Schedule Section
-    ============================-->
-    <section id="schedule">
-      <div class="container">
-        <header class="section-header">
-          <h3>Class Schedule</h3>
-          <p>Join our upcoming live coding sessions on Google Meet</p>
-        </header>
-
-        <div class="row">
-          <div class="col-lg-6 col-md-6">
-            <div class="box wow fadeInUp">
-              <h4 class="title"><a href="#">Web Development Fundamentals</a></h4>
-              <p class="description">Every Monday and Wednesday, 6 PM - 8 PM</p>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="box wow fadeInUp">
-              <h4 class="title"><a href="#">Mobile App Development</a></h4>
-              <p class="description">Every Tuesday and Thursday, 7 PM - 9 PM</p>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="box wow fadeInUp">
-              <h4 class="title"><a href="#">Data Science Essentials</a></h4>
-              <p class="description">Every Saturday, 10 AM - 12 PM</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--==========================
-      Contact Us Section
-    ============================-->
-    <section id="contact" class="section-bg">
-      <div class="container">
-        <div class="section-header">
-          <h3>Contact Us</h3>
-          <p>We're here to help you with any questions or inquiries.</p>
-        </div>
-
-        <div class="row contact-info">
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Address</h3>
-              <address>123 Main St, Lagos, Nigeria</address>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
-              <p><a href="tel:+234123456789">+234 123 456 789</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:info@teachmecode.com">info@teachmecode.com</a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="form">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-              </div>
-              <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-            </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
-          </form>
-        </div>
-      </div>
-    </section>
-
-  </main>
+  </section>
 
   <!--==========================
-    Footer
+    About Us Section with Card
   ============================-->
-  <footer id="footer">
+  <section id="about" class="section-bg">
     <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>teach.me.code</strong>. All Rights Reserved
+      <div class="section-header">
+        <h3>About Us</h3>
+        <p>We are a leading code academy offering a wide range of programming courses to help you achieve your career goals.</p>
       </div>
-      <div class="credits">
-        Designed by Elijah Ekpen Mensah
+      <div class="card wow fadeInUp">
+        <div class="card-body">
+          <h4>Our Mission</h4>
+          <p>To empower individuals with the knowledge and skills to excel in the tech industry.</p>
+        </div>
       </div>
     </div>
-  </footer><!-- #footer -->
+  </section>
 
-  <!-- JavaScript Libraries -->
+  <!--==========================
+    Courses Section with Cards
+  ============================-->
+  <section id="courses" class="section-bg">
+    <div class="container">
+      <div class="section-header">
+        <h3>Courses We Offer</h3>
+        <p>Choose from a variety of courses designed to suit your needs.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card wow fadeInUp">
+            <div class="card-body">
+              <h4 class="title"><a href="#">Web Development Fundamentals</a></h4>
+              <p class="description">Learn the basics of web development and build your first website.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card wow fadeInUp">
+            <div class="card-body">
+              <h4 class="title"><a href="#">Mobile App Development</a></h4>
+              <p class="description">Create engaging mobile apps with our comprehensive course.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card wow fadeInUp">
+            <div class="card-body">
+              <h4 class="title"><a href="#">Data Science Essentials</a></h4>
+              <p class="description">Get introduced to the world of data science and analytics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Class Schedule Section with Cards
+  ============================-->
+  <section id="schedule">
+    <div class="container">
+      <div class="section-header">
+        <h3>Class Schedule</h3>
+        <p>Our classes are structured to fit your busy schedule.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card wow fadeInUp">
+            <div class="card-body">
+              <h4>Web Development Fundamentals</h4>
+              <p>Every Monday and Wednesday, 6 PM - 8 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card wow fadeInUp">
+            <div class="card-body">
+              <h4>Mobile App Development</h4>
+              <p>Every Tuesday and Thursday, 7 PM - 9 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card wow fadeInUp">
+            <div class="card-body">
+              <h4>Data Science Essentials</h4>
+              <p>Every Saturday, 10 AM - 12 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Contact Us Section with Cards
+  ============================-->
+  <section id="contact" class="section-bg">
+    <div class="container">
+      <div class="section-header">
+        <h3>Contact Us</h3>
+        <p>We're here to help you with any questions or inquiries.</p>
+      </div>
+
+      <div class="row contact-info">
+        <div class="col-md-4">
+          <div class="card wow fadeInUp">
+            <div class="card-body">
+              <div class="contact-address">
+                <i class="ion-ios-location-outline"></i>
+                <h4>Address</h4>
+                <address>123 Main St, Lagos, Nigeria</address>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card wow fadeInUp">
+            <div class="card-body">
+              <div class="contact-phone">
+                <i class="ion-ios-telephone-outline"></i>
+                <h4>Phone Number</h4>
+                <p><a href="tel:+234123456789">+234 123 456 789</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card wow fadeInUp">
+            <div class="card-body">
+              <div class="contact-email">
+                <i class="ion-ios-email-outline"></i>
+                <h4>Email</h4>
+                <p><a href="mailto:info@teachmecode.com">info@teachmecode.com</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form wow fadeInUp">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- JS Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
   <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
 
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
+  <!-- Main JS File -->
   <script src="js/main.js"></script>
 
+  <!-- GSAP and Anime.js Scripts -->
+  <script>
+    // Initialize Wow.js for scrolling animations
+    new WOW().init();
+
+    // GSAP for scroll animations
+    gsap.from("#about .card", { duration: 1, y: 100, opacity: 0, ease: "power2.out", stagger: 0.3 });
+    gsap.from("#courses .card", { duration: 1, y: 100, opacity: 0, ease: "power2.out", stagger: 0.3 });
+    gsap.from("#schedule .card", { duration: 1, y: 100, opacity: 0, ease: "power2.out", stagger: 0.3 });
+    gsap.from("#contact .card", { duration: 1, y: 100, opacity: 0, ease: "power2.out", stagger: 0.3 });
+
+    // Anime.js for card animations
+    anime({
+      targets: '.card',
+      translateY: [-10, 0],
+      duration: 1000,
+      easing: 'easeInOutQuad',
+      delay: anime.stagger(100)
+    });
+  </script>
 </body>
 
 </html>
